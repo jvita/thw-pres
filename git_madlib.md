@@ -147,3 +147,35 @@ __Make your first commit__
    1 file changed, 1 insertion(+), 1 deletion(-)
   ```
   __Note__ if you accidentally started editing your files before pulling down the most recent version, you might run into merge conflicts (when the remote version has changes that conflict with your local version). If this happens, you might need to manually go through to decide which version to use. If you know that you want to overwrite the local file using the remote version, use ```git merge --strategy-option theirs```
+
+__Often you will want to maintain multiple "branches" of your repository__
+
+1. Notice that you are currently on the "master" branch
+   
+   ```
+   $ git branch
+   * master
+   ```
+   
+2. In the command line, create a new branch in your local repository and "checkout" to it:
+
+   ```
+   $ git checkout -b my_new_branch
+   $ git branch
+   * master
+     my_new_branch
+   ```
+   
+3. Now make some changes, commit the changes, and push them (```git push origin my_new_branch```) to the remote repository.
+4. Return to your repository homepage and notice that you can now navigate between branches using the "Branch" button (left).
+5. Locally, you can navigate between branches with ```git checkout <branch_name>```.
+
+## Conclusion
+
+That's it! This was very much a bare-bones exercise intended to introduce beginners to Git. In the future if you have other questions, most everything that you would need can be found on good 'ol Stackoverflow.
+
+## Resources
+[Tutorial on branch organization](https://nvie.com/posts/a-successful-git-branching-model/)
+[Github cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
+   
