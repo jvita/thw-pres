@@ -8,5 +8,16 @@ Option 2: Use ```sudo apt-get install git``` (Ubuntu)
 
 Once you've finished installing, you should also [make an account](https://github.com) on Github.
 
-## The basics
+## What is Git good for?
 
+Version control
+
+![organization](https://user-images.githubusercontent.com/15058514/45724076-15be5700-bb7a-11e8-958b-7b6f87aebcdf.png)
+
+Collaborative development
+
+![collab](https://user-images.githubusercontent.com/15058514/45724078-17881a80-bb7a-11e8-8d17-586ce919980d.png)
+
+Dumping your code to the cloud so that you can work from home
+
+![comic](https://user-images.githubusercontent.com/15058514/45724005-d0018e80-bb79-11e8-902d-9ab3d8dcc8ec.png)
