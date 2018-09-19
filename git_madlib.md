@@ -175,7 +175,12 @@ __Often you will want to maintain multiple "branches" of your repository__
 That's it! This was very much a bare-bones exercise intended to introduce beginners to Git. In the future if you have other questions, most everything that you would need can be found on good 'ol Stackoverflow.
 
 ## Resources
+
 [Tutorial on branch organization](https://nvie.com/posts/a-successful-git-branching-model/)
+
 [Github cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
 [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
+
+[.gitignore generator](gitignore.io)
    
